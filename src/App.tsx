@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import { TaskType, TodoList } from './TodoList';
 
+
 export type FilterValuesType = "all" | "completed" | "active";
 
 function App() {
